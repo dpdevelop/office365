@@ -9,16 +9,25 @@
       "email": "dkpatel18789@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
+  "keywords": [
+    "Laravel",
+    "Office365",
+    "Login"
+  ],
   "require": {
     "php": ">=5.6.0",
-    "illuminate/support": "~5.1",
+    "illuminate/support": ">=5.1",
     "league/oauth2-client": "2.3.*",
     "microsoft/microsoft-graph": "1.0.*"
   },
   "autoload": {
     "psr-4": {
       "Dpdevelop\\Office365\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
     }
   }
 }
